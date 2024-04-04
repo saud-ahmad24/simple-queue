@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "4a19d46f-a229-481f-9e40-1d1d03eb4124",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27516492",
+		"_collection_link": "https://engees11zateam.postman.co/workspace/11za-Collection~89bbd2b7-c5df-4483-909f-29a83c70e9c3/collection/27516492-4a19d46f-a229-481f-9e40-1d1d03eb4124?action=share&source=collection_link&creator=27516492"
+	},
+	"item": [
+		{
+			"name": "Media Upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "videos",
+							"type": "file",
+							"src": "/C:/Users/Engees/Downloads/cd00c420-eb4e-11ee-a48c-b54bc29071edSGGCI (3).pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get status",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
